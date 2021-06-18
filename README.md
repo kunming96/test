@@ -1,4 +1,4 @@
-# Audio-Filtering-on-STM32-Using-CMSIS-DSP
+# Audio-Filtering-on-STM32-Using-CMSIS-DSP <img src="https://github.com/favicon.ico" width="48">
 
 * [Introduction](#Introduction "Goto Introduction")
 	* [Filter Specification](#filter-specification)
@@ -7,6 +7,9 @@
 * [PINOUT & CONFIGURATION](#pinout-and-configuration)
 
 ## Introduction
+
+<img src="https://drive.google.com/uc?export=view&id=1F5om0grdVrSmSDxNLPT0yRsJCK26UT5Z" width="500" class="center">
+
 <div style="text-align: justify"> STM32F446RE Nucleo Board is the main microcontroller unit used to realise the implementation of the FIR filter in this project. The micro SD card act as external storage to keep the audio data file in txt format which consists of 32 bits floating-point numbers. The audio file is originally in .wav format and it is converted to text format to allow the Nucleo board to read the data. The micro SD card adaptor is utilized to allow the STM32 Nucleo board to access the micro SD card via a Serial Peripheral Interface (SPI) connection. The SPI is communicated in full-duplex mode using a master-slave architecture with a single master or microcontroller unit. The data transmitted into the board is managed by the middleware called File Allocation Table File System (FATfs) which is widely used in memory card and USB storage drive. The status of the process is updated on user monitoring via the Universal Asynchronous Receiver Transmitter (UART) interface. The output audio data file is written back to the SD card once the FIR processing on the board is done.  </div>
 
 
