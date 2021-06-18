@@ -3,7 +3,7 @@
 * [Introduction](#Introduction "Goto Introduction")
 	* [Filter Specification](#filter-specification)
 	* [Hardware](#Hardware "Goto Hardware")
-	* [Software]($Software)
+	* [Software](#Software)
 * [PINOUT & CONFIGURATION](#pinout-and-configuration)
 
 ## Introduction
