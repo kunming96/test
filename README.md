@@ -58,10 +58,10 @@ CS | PB6
 ![image](https://drive.google.com/uc?export=view&id=1Ig2WFhUm7H_QoGFrYuFp4Sz9_M2MPK6V)
 
 4. In this project, we used the serial monitor to debug our connection and check our data transfer status. We connect the board to the serial monitor using default UART, **USART2**. The UART mode is set to **asynchronous** because UART interface does not use a clock signal to synchronize the transmitter and receiver devices and the baud rate was changed to **9600 Bits/s**.
-![image](https://drive.google.com/uc?export=view&id=1jcH8vdL4rxdv81Jn_Z30vivXYo2NFugA)
+![image](https://drive.google.com/uc?export=view&id=1Eyn-ehQ9J5qlj5CWtkCStOn1dViSzqVR)
 
 5. In the **system mode** setting, the debug state changed to **serial wire** mode. For the **RCC** setting, we used a **crystal/ceramic resonator** to generate our clock. While for the **clock configuration**, we set it to **maximum frequency,180 MHz**.
-![image](https://drive.google.com/uc?export=view&id=1Eyn-ehQ9J5qlj5CWtkCStOn1dViSzqVR)
+![image](https://drive.google.com/uc?export=view&id=1asDazAoJb80-9pazVPPvquZPmpzHkZRH)
 
 
 
