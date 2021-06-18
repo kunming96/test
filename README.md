@@ -30,6 +30,7 @@ NUM_TAPS | 17
 
 ### Software
 * [STM32 Cube IDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+* [CMSIS DSP Library](https://www.keil.com/pack/doc/CMSIS/DSP/html/index.html)
 * [Putty](https://www.putty.org/)
 * [MATLAB / Online Filter Design Tool](http://t-filter.engineerjs.com/)
 
@@ -63,7 +64,11 @@ CS | PB6
 5. In the **system mode** setting, the debug state changed to **serial wire** mode. For the **RCC** setting, we used a **crystal/ceramic resonator** to generate our clock. While for the **clock configuration**, we set it to **maximum frequency,180 MHz**.
 ![image](https://drive.google.com/uc?export=view&id=1asDazAoJb80-9pazVPPvquZPmpzHkZRH)
 
-
+## Reference
+1. <https://os.mbed.com/platforms/ST-Nucleo-F446RE/>
+2. <https://controllerstech.com/sd-card-using-spi-in-stm32/>
+3. <https://www.keil.com/pack/doc/CMSIS/DSP/html/index.html>
+4. <https://www.youtube.com/watch?v=nAot1FCgYGo>
 
 
 
