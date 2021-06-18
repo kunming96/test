@@ -3,6 +3,7 @@
 * [Introduction](#Introduction "Goto Introduction")
 	* [Filter Specification](#filter-specification)
 	* [Hardware](#Hardware "Goto Hardware")
+	* [Software]($Software)
 * [PINOUT & CONFIGURATION](#pinout-and-configuration)
 
 ## Introduction
@@ -26,6 +27,11 @@ NUM_TAPS | 17
 ### Hardware
 * [STM32F446RE](https://my.element14.com/stmicroelectronics/nucleo-f446re/dev-board-arduino-mbed-nucleo/dp/2491978)
 * [SD Card Module](https://my.cytron.io/p-5v-compatible-micro-sd-card-adapter?r=1&gclid=Cj0KCQjw5auGBhDEARIsAFyNm9FTleQynj9c2YMi_SlpQxx_k29wvPSq-7eCfkw4wXL21nuOy9up6-YaAr2vEALw_wcB)
+
+### Software
+* [STM32 Cube IDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+* [Putty](https://www.putty.org/)
+* [MATLAB / Online Filter Design Tool](http://t-filter.engineerjs.com/)
 
 ## PINOUT and CONFIGURATION
 In this project, we store the input and output of the FIR filter in an SD card. Therefore, we need to set the interface between the SD card module and STM32.
